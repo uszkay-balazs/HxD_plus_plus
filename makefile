@@ -4,15 +4,15 @@ c-lin = gcc
 # Compiler on Windows
 c-win = clang
 
-
 # Common flags
-f-com = -O3 -g0 -Wall -Wextra --pedantic -s
+#f-com = -O3 -g0 -Wall -Wextra --pedantic -s  #release
+f-com = -O0 -g3 -Wall -Wextra --pedantic #debug 
 
 # Linux flags 
-f-lin = $(f-com) #-DLINUX 
+f-lin = $(f-com) -ggdb #-DLINUX 
 
 # Windows flags
-f-win = $(f-com) #-DWINDOWS
+f-win = $(f-com) -glldb #-DWINDOWS
 
 
 # $ make linux 
