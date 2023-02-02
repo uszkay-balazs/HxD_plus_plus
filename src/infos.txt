@@ -1,0 +1,7 @@
+linux.c:
+	
+
+windows.c:
+	Done: Can open arbitrary file to buffer and handle it correctly
+	Current: 
+	Todo:
