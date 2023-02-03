@@ -1,0 +1,6 @@
+./.gitignore
+./run.ps1
+./bin
+./test_og.bin
+./test.bin
+./token.txt
